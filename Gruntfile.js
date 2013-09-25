@@ -101,6 +101,6 @@ module.exports = function(grunt) {
 	// Default task(s).
 	grunt.registerTask('default', ['clean', 'copy', 'jade']);
 	grunt.registerTask('staging', ['clean', 'copy', 'jade', 'ftp-deploy:staging']);
-	grunt.registerTask('staging', ['clean', 'copy', 'jade', 'ftp-deploy:production']);
+	grunt.registerTask('production', ['clean', 'copy', 'jade', 'ftp-deploy:production']);
 
 };

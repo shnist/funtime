@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"col-",
+				"col-xs-12"
+			],
+			[
+				"pro",
+				"production"
+			],
+			[
 				"back",
 				"background-repeat"
 			],
@@ -380,10 +388,6 @@
 				"calculatorContainer"
 			],
 			[
-				"pro",
-				"propertySearch"
-			],
-			[
 				"has",
 				"hasIconGlyph"
 			],
@@ -510,15 +514,91 @@
 			[
 				"id",
 				"id"
-			],
-			[
-				"curren",
-				"currentValueHTML"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/templates/components/footer.jade",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/components/head.jade",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/index.jade",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/parties.jade",
+			"settings":
+			{
+				"buffer_size": 1448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/booking.jade",
+			"settings":
+			{
+				"buffer_size": 163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/contact.jade",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/components/navigation.jade",
+			"settings":
+			{
+				"buffer_size": 535,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/layout.jade",
+			"settings":
+			{
+				"buffer_size": 148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/main.js",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -896,6 +976,11 @@
 	},
 	"file_history":
 	[
+		"/Users/fabera/Sites/funtime/.gitignore",
+		"/Users/fabera/Sites/funtime/.ftppass",
+		"/Users/fabera/Sites/funtime/src/js/main.js",
+		"/Users/fabera/Sites/funtime/src/templates/components/navigation.jade",
+		"/Users/fabera/Sites/funtime/funtime.sublime-project",
 		"/var/folders/9j/q_1zn_151gsc606qlssy5dm40000gp/T/sublime-svn-1379693008/SVN",
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_dwh/style/modules/search_list.css",
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/LBI.template.js",
@@ -1018,12 +1103,7 @@
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/models/mortgage_calculator_results_model.js",
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/views/mortgage_calculator_results_view_plot.js",
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/models/mortgage_calculator_results_model_plot.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/views/mortgage_calculator_term_slider_view.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/views/mortgage_calculator_payments_slider_view.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/views/mortgage_calculator_view.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/models/mortgage_calculator_payments_slider_model.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/models/mortgage_calculator_term_slider_model.js",
-		"/var/folders/9j/q_1zn_151gsc606qlssy5dm40000gp/T/sublime-svn-1379327682/SVN"
+		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/views/mortgage_calculator_term_slider_view.js"
 	],
 	"find":
 	{
@@ -1359,8 +1439,275 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/templates/components/footer.jade",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/components/head.jade",
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/index.jade",
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1087,
+								971
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/parties.jade",
+					"settings":
+					{
+						"buffer_size": 1448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 101.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/booking.jade",
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/contact.jade",
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 2352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2293,
+								2293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/templates/components/navigation.jade",
+					"settings":
+					{
+						"buffer_size": 535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								510,
+								517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/templates/layout.jade",
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/js/main.js",
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1406,8 +1753,60 @@
 		"selected_items":
 		[
 			[
+				"git",
+				".gitignore"
+			],
+			[
+				"main",
+				"src/js/main.js"
+			],
+			[
+				"head",
+				"src/templates/components/head.jade"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"man",
+				"src/js/main.js"
+			],
+			[
+				"la",
+				"src/templates/layout.jade"
+			],
+			[
+				"lay",
+				"src/templates/layout.jade"
+			],
+			[
+				"navi",
+				"src/templates/components/navigation.jade"
+			],
+			[
 				"grunt",
-				"id_build/GruntFile.js"
+				"Gruntfile.js"
+			],
+			[
+				"nagi",
+				"src/templates/components/navigation.jade"
+			],
+			[
+				"index",
+				"src/templates/index.jade"
+			],
+			[
+				"components",
+				"src/templates/components/head.jade"
+			],
+			[
+				"foo",
+				"src/templates/components/footer.jade"
+			],
+			[
+				"templates",
+				"src/templates/components/footer.jade"
 			],
 			[
 				"lbibarr",
@@ -1864,58 +2263,6 @@
 			[
 				"mortgage_calculator_view",
 				"assets/web/theme_barratt/script/views/mortgage_calculator_view.js"
-			],
-			[
-				"interestvie",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_interest_slider_view.js"
-			],
-			[
-				"termview",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_term_slider_view.js"
-			],
-			[
-				"depositslidr",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_deposit_slider_view.js"
-			],
-			[
-				"bodyf",
-				"HtmlTemplates/web/components/c_02.01_body_foot_barratt.shtml"
-			],
-			[
-				"interestslider",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_interest_slider_view.js"
-			],
-			[
-				"depositslider",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_deposit_slider_view.js"
-			],
-			[
-				"termslie",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_term_slider_view.js"
-			],
-			[
-				"paymentsslidermod",
-				"assets/web/theme_barratt/script/models/mortgage_calculator_payments_slider_model.js"
-			],
-			[
-				"termslidermod",
-				"assets/web/theme_barratt/script/models/mortgage_calculator_term_slider_model.js"
-			],
-			[
-				"interestslider.js",
-				"assets/web/theme_barratt/script/models/mortgage_calculator_interest_slider_model.js"
-			],
-			[
-				"depositslider.js",
-				"assets/web/theme_barratt/script/models/mortgage_calculator_deposit_slider_model.js"
-			],
-			[
-				"ratevi",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_term_slider_view.js"
-			],
-			[
-				"paymentsview",
-				"assets/web/theme_barratt/script/views/mortgage_calculator_payments_slider_view.js"
 			]
 		],
 		"width": 0.0
