@@ -1,9 +1,9 @@
 require.config({
-	baseUrl: 'dist/js',
+	baseUrl: 'src/js',
 	paths: {
-		'jquery': '../../assets/libs/jquery.1.10.2.min',
-		'bootstrap': '../../assets/libs/bootstrap.min',
-		'pubsub': '../../assets/libs/pubsub',
+		'jquery': '../../../assets/libs/jquery.1.10.2.min',
+		'bootstrap': '../../../assets/libs/bootstrap.min',
+		'pubsub': '../../../assets/libs/pubsub',
 	},
 	shim: {
 		'bootstrap': {

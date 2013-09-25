@@ -29,8 +29,7 @@ module.exports = function(grunt) {
 			build: {
 				files: [{
 					expand: true,
-					cwd: 'src',
-					src: '**',
+					src: ['src/**', 'assets/**'],
 					dest: 'dist/'
 				}],
 				exclude: options.defaultExcludes
@@ -42,14 +41,19 @@ module.exports = function(grunt) {
 					pretty: true,
 					debug: true
 				},
-				files: {
-					'index.html': 'dist/templates/index.jade'
-				}
+				files: [{
+					expand: true,
+					flatten: true,
+					cwd: 'dist',
+					src: 'src/templates/*.jade',
+					dest: 'dist/',
+					ext: '.html'
+				}]
 			}
 		},
 		watch: {
 			files: ['src/**/*.js', 'src/**/*.jade', 'src/**/*.sass'],
-			tasks: ['build']
+			tasks: ['default']
 		},
 		uglify: {
 			options: {
@@ -58,6 +62,30 @@ module.exports = function(grunt) {
 			build: {
 				src: 'src/<%= pkg.name %>.js',
 				dest: 'build/<%= pkg.name %>.min.js'
+			}
+		},
+		'ftp-deploy': {
+			staging: {
+				auth: {
+					host: 'ftp.mandygodding.co.uk',
+					port: 21,
+					authKey: 'funTimeKey'
+				},
+				src:'dist',
+				// .ftppass with details is needed (not included in repo)
+				dest: '/htdocs/funtime/staging',
+				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
+			},
+			production: {
+				auth: {
+					host: 'ftp.mandygodding.co.uk',
+					port: 21,
+					authKey: 'funTimeKey'
+				},
+				src:'dist',
+				// .ftppass with details is needed (not included in repo)
+				dest: '/htdocs/funtime/production',
+				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
 			}
 		}
 	});
@@ -68,9 +96,11 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-jade');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-ftp-deploy');
 
 	// Default task(s).
-	grunt.registerTask('id_watch', 'watch');
-	grunt.registerTask('build', ['clean', 'copy', 'jade']);
+	grunt.registerTask('default', ['clean', 'copy', 'jade']);
+	grunt.registerTask('staging', ['clean', 'copy', 'jade', 'ftp-deploy:staging']);
+	grunt.registerTask('staging', ['clean', 'copy', 'jade', 'ftp-deploy:production']);
 
 };
