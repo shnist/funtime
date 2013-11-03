@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 			build: {
 				files: [{
 					expand: true,
-					src: ['src/**', 'assets/**'],
+					src: ['src/**'],
 					dest: 'dist/'
 				}],
 				exclude: options.defaultExcludes
@@ -38,15 +38,6 @@ module.exports = function(grunt) {
 		watch: {
 			files: ['src/**/*.js'],
 			tasks: ['default']
-		},
-		uglify: {
-			options: {
-				banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-			},
-			build: {
-				src: 'src/<%= pkg.name %>.js',
-				dest: 'build/<%= pkg.name %>.min.js'
-			}
 		},
 		'ftp-deploy': {
 			staging: {
@@ -82,8 +73,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-ftp-deploy');
 
 	// Default task(s).
-	grunt.registerTask('default', ['clean', 'copy', 'jade']);
-	grunt.registerTask('staging', ['clean', 'copy', 'jade', 'ftp-deploy:staging']);
-	grunt.registerTask('production', ['clean', 'copy', 'jade', 'ftp-deploy:production']);
+	grunt.registerTask('default', ['clean', 'copy']);
+	grunt.registerTask('staging', ['clean', 'copy', 'ftp-deploy:staging']);
+	grunt.registerTask('production', ['clean', 'copy', 'ftp-deploy:production']);
 
 };
