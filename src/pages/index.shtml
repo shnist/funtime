@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--#include virtual="components/head.shtml" -->
+  <body>
+    <div class="container">
+      <!--#include virtual="components/navigation.shtml" -->
+      <h1 class="text-center">Fun Time Magic Show!</h1>
+      <p>
+        If you are looking to hire a childrens' entertainer around the Gloucestershire
+        area for your child's birthday or special occasion. Michael can provide a show
+        of laughs, amazement and pure fun for you and your guests. Having worked with
+        children for the last 15 years and originally performing magic shows at Legoland
+        Windsor, he certainly knows how to blend the right amount interaction and
+        entertainment to make your child's occasion one that they will never forget!
+      </p>
+      <blockquote>
+        <p>
+          "How you keep an audience of under 5's completely enthralled and entertained
+          for 45 minutes is amazing, great show!!"
+        </p><small>Mandy Lee, Highnam Under 5's Playgroup</small>
+      </blockquote>
+      <img src="../images/girl.jpg" alt="Girl having a great time at a party" class="img-responsive hidden-print">
+      <blockquote>
+        <p>
+          "Our 5 year old son has been talking non about his Super Hero Magic Party..
+          his special balloon robot arm you made for him was so amazing too...Thanks!!"
+        </p><small>Charlotte Woodland, Abbeymead</small>
+      </blockquote>
+      <img src="../images/party_2.jpg" alt="Kids enjoying themselves at a party" class="img-responsive hidden-print">
+      <blockquote>
+        <p>
+          "You made my end of term party so special. Every child just kept talking
+          about the magic show for the next week!!"
+        </p><small>Melanie Eamer, Child Minder, Hempsted</small>
+      </blockquote>
+      <!--#include virtual="components/footer.shtml"-->
+    </div>
+  </body>
+</html>

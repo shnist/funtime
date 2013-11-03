@@ -1,26 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Funtime Magic Show</title>
-    <meta name="viewport" content="width=device-width" intial-scale="1.0">
-    <link href="assets/libs/bootstrap.min.css" rel="stylesheet" media="screen">
-    <script data-main="dist/js/main" src="assets/libs/requirejs.2.1.8.min.js" media="screen"></script>
-  </head>
+  <!--#include virtual="components/head.shtml" -->
   <body>
     <div class="container">
-      <nav role="navigation" class="navbar navbar-default">
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target=".navbar-main-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        </div>
-        <div class="collapse navbar-collapse navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="parties.html">Parties &amp; Booking</a></li>
-            <li><a href="booking.html">Book a Party</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </nav>
+      <!--#include virtual="components/navigation.shtml" -->
       <h1>Parties</h1><a href="booking.html" class="btn btn-primary">Book Your Party Now!</a>
       <h2>The Fun Time Magic Show</h2>
       <p>
@@ -30,14 +13,16 @@
         his special scanner to find the Birthday boy/girl in the audience.
         They then get to take a staring role in the show and help make the magic
         work with hilarious consequences.
-      </p><img src="dist/images/party.jpg" alt="Children enjoying one of Michael's parties" class="img-responsive hidden-print">
+      </p>
+      <img src="../images/party.jpg" alt="Children enjoying one of Michael's parties" class="img-responsive hidden-print">
       <h2>Superhero Magic Party</h2>
       <p>
         This is also a 45 minute magic show themed around Superheroes. Fun is
         guaranteed as the children help Michael and his superhero friend Magic
         Marvel defeat the evil Dr Doom! This party is aimed for children aged
         5 - 10.
-      </p><img src="dist/images/superhero.jpg" alt="Magic Marvel" class="img-responsive hidden-print">
+      </p>
+      <img src="../images/superhero.jpg" alt="Magic Marvel" class="img-responsive hidden-print">
       <h2>Details</h2>
       <ul>
         <li>All birthday party packages will be adapted according to age and gender</li>
@@ -46,12 +31,7 @@
         <li>Michael is fully CRB checked.</li>
       </ul>
       <p>45 minute party packages only cost &pound;100!</p><a href="booking.html" class="btn btn-primary btn-lg">Book Now!</a>
-      <footer>
-        <p>
-          Michael also offers a special <a href="http://galacticdrama.co.uk/">Jedi Party</a>,
-          for lovers of Star Wars of all ages.
-        </p>
-      </footer>
+      <!--#include virtual="components/footer.shtml"-->
     </div>
   </body>
 </html>

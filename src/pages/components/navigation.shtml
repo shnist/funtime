@@ -4,10 +4,10 @@
   </div>
   <div class="collapse navbar-collapse navbar-main-collapse">
     <ul class="nav navbar-nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="parties.html">Parties &amp; Booking</a></li>
-      <li><a href="booking.html">Book a Party</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="index.shtml">Home</a></li>
+      <li><a href="parties.shtml">Parties &amp; Booking</a></li>
+      <li><a href="booking.shtml">Book a Party</a></li>
+      <li><a href="contact.shtml">Contact Us</a></li>
     </ul>
   </div>
 </nav>
