@@ -1,6 +1,7 @@
 <head>
 	<title>Funtime Magic Show</title>
 	<meta name="viewport" content="width=device-width" intial-scale="1.0">
-	<link href="../assets/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="../assets/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="../css/all.css" rel="stylesheet" media="screen">
 	<script data-main="../js/main" src="../assets/requirejs.2.1.8.min.js" media="screen"></script>
 </head>

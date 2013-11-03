@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: blue;
+	font-size: 16px;
+}
+
+.container {
+	background: #fff;
+	border-radius: 5px 5px 0 0;
+}
+
+.heading {
+	background: url('../images/logo.png') no-repeat;
+	display: block;
+	margin: 10px auto;
+	text-indent: -9999px;
+	direction: ltr;
+	width: 288px;
+	height: 186px;
+}
+
+footer {
+	background: red;
+	color: white;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+	footer {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	footer {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	footer {
+		width: 1170px;
+	}
+}

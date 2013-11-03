@@ -20,7 +20,7 @@
       <h2>Dancing Princess Party</h2>
       <p>This is a dance themed party with fun and games adaptable for girls of all ages.</p>
       <p>More info at <a href="http://mandygodding.co.uk/">Mandy Godding Theatre Arts</a>.</p>
-      <!--#include virtual="components/footer.shtml"-->
     </div>
+    <!--#include virtual="components/footer.shtml"-->
   </body>
 </html>

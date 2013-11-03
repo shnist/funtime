@@ -6,7 +6,7 @@
       <!--#include virtual="components/navigation.shtml" -->
       <h1>Book</h1>
       <p>To book show, please contact Michael at funtimemagicshow at yahoo dot co dot uk</p>
-      <!--#include virtual="components/footer.shtml"-->
     </div>
+    <!--#include virtual="components/footer.shtml"-->
   </body>
 </html>
