@@ -35,24 +35,8 @@ module.exports = function(grunt) {
 				exclude: options.defaultExcludes
 			}
 		},
-		jade: {
-			build: {
-				options: {
-					pretty: true,
-					debug: true
-				},
-				files: [{
-					expand: true,
-					flatten: true,
-					cwd: 'dist',
-					src: 'src/templates/*.jade',
-					dest: 'dist/',
-					ext: '.html'
-				}]
-			}
-		},
 		watch: {
-			files: ['src/**/*.js', 'src/**/*.jade', 'src/**/*.sass'],
+			files: ['src/**/*.js'],
 			tasks: ['default']
 		},
 		uglify: {
@@ -93,7 +77,6 @@ module.exports = function(grunt) {
 	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-jade');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-ftp-deploy');

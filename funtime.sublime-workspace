@@ -519,86 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/templates/components/footer.jade",
-			"settings":
-			{
-				"buffer_size": 135,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/components/head.jade",
-			"settings":
-			{
-				"buffer_size": 273,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/index.jade",
-			"settings":
-			{
-				"buffer_size": 1392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/parties.jade",
-			"settings":
-			{
-				"buffer_size": 1448,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/booking.jade",
-			"settings":
-			{
-				"buffer_size": 1702,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/contact.jade",
-			"settings":
-			{
-				"buffer_size": 860,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 2352,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/components/navigation.jade",
-			"settings":
-			{
-				"buffer_size": 514,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/layout.jade",
-			"settings":
-			{
-				"buffer_size": 148,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/main.js",
-			"settings":
-			{
-				"buffer_size": 391,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -976,6 +896,16 @@
 	},
 	"file_history":
 	[
+		"/home/aaron/Sites/funtime/Gruntfile.js",
+		"/home/aaron/Sites/funtime/src/templates/components/footer.jade",
+		"/home/aaron/Sites/funtime/src/templates/components/head.jade",
+		"/home/aaron/Sites/funtime/src/templates/index.jade",
+		"/home/aaron/Sites/funtime/src/templates/parties.jade",
+		"/home/aaron/Sites/funtime/src/templates/booking.jade",
+		"/home/aaron/Sites/funtime/src/templates/contact.jade",
+		"/home/aaron/Sites/funtime/src/templates/layout.jade",
+		"/home/aaron/Sites/funtime/src/templates/components/navigation.jade",
+		"/home/aaron/Sites/funtime/src/js/main.js",
 		"/etc/apache2/extra/httpd-vhosts.conf",
 		"/etc/hosts",
 		"/Users/fabera/Sites/funtime/.gitignore",
@@ -1093,17 +1023,7 @@
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/views/mortgage_calculator_deposit_slider_view.js",
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/views/mortgage_calculator_payments_slider_view.js",
 		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_payments_slider_model_plot.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_term_slider_model.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_model.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_results_model_plot.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_interest_slider_model.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_results_model.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/m_mortgage_calculator_search_view.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/modules/m_mortgage_calculator_search_view.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/modules/m_36.00_my_shortlist.js",
-		"/var/folders/9j/q_1zn_151gsc606qlssy5dm40000gp/T/sublime-svn-1379328636/SVN",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/models/mortgage_calculator_results_model.js",
-		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/theme_barratt/script/views/mortgage_calculator_results_view_plot.js"
+		"/Users/fabera/Sites/barratts/branch/LBi.BarrattDevelopments/LBi.BarrattDevelopments.Web/assets/web/lib/script/lbi/models/mortgage_calculator_term_slider_model.js"
 	],
 	"find":
 	{
@@ -1439,276 +1359,8 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/templates/components/footer.jade",
-					"settings":
-					{
-						"buffer_size": 135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								95,
-								95
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/templates/components/head.jade",
-					"settings":
-					{
-						"buffer_size": 273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								201,
-								201
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/templates/index.jade",
-					"settings":
-					{
-						"buffer_size": 1392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1094,
-								1094
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/templates/parties.jade",
-					"settings":
-					{
-						"buffer_size": 1448,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								674,
-								674
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 101.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/templates/booking.jade",
-					"settings":
-					{
-						"buffer_size": 1702,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1686,
-								1686
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/templates/contact.jade",
-					"settings":
-					{
-						"buffer_size": 860,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								61,
-								61
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 2352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2293,
-								2293
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/templates/components/navigation.jade",
-					"settings":
-					{
-						"buffer_size": 514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								501,
-								501
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/templates/layout.jade",
-					"settings":
-					{
-						"buffer_size": 148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/js/main.js",
-					"settings":
-					{
-						"buffer_size": 391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								28
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
