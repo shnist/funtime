@@ -4,6 +4,10 @@
 		{
 			"path": "/Users/fabera/Sites/funtime",
 			"folder_exclude_patterns": ["node_modules", "dist"]
+		},
+		{
+			"path": "/home/aaron/Sites/funtime",
+			"folder_exclude_patterns": ["node_modules", "dist"]
 		}
 	]
 }
