@@ -2,9 +2,10 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
+    <h1 class="text-center heading">Fun Time Magic Show!</h1>
     <div class="container">
       <!--#include virtual="components/navigation.shtml" -->
-      <h1>Contact Michael</h1>
+      <h2>Contact Michael</h2>
       <h2>Fun Time Magic Show</h2>
       <p>Email: <a href="mailto:funtimemagicshow@yahoo.co.uk">funtimemagicshow@yahoo.co.uk</a></p>
       <p>Phone: <a href="tel:07718110798">0771 811 0798</a>.</p>
