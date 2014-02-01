@@ -5,6 +5,7 @@
     <h1 class="text-center heading">Fun Time Magic Show!</h1>
     <!--#include virtual="components/navigation.shtml" -->
     <div class="container">
+      <h2>Welcome to Funtime Magic!</h2>
       <p>
         If you are looking to hire a childrens' entertainer around the Gloucestershire
         area for your child's birthday or special occasion. Michael can provide a show
