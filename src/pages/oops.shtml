@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--#include virtual="components/head.shtml" -->
+  <body>
+  	<h1 class="text-center heading">Fun Time Magic Show!</h1>
+    <!--#include virtual="components/navigation.shtml" -->
+    <div class="container">
+      <h2>Something went wrong!</h2>
+      <p class="lead">
+      	Unfortunately something went wrong when trying to process
+        your booking request. Make sure your email details are correct
+        before submitting. <a href="/pages/booking.shtml">Please try again.</a>
+      </p>
+    </div>
+    <!--#include virtual="components/footer.shtml"-->
+  </body>
+</html>
