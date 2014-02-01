@@ -1,0 +1,37 @@
+extends layout
+
+block append content
+	h1(class="text-center") Book your Party
+	p.
+		Michael can also be contacted directly at funtimemagicshow@yahoo.co.uk
+	form(method="post", action="booking.php")
+		fieldset.form-group
+			label(for="name") Your name
+				sup *
+			input(id="name", name="name", class="form-control", placeholder="e.g. John Doe", type="text", required)
+		fieldset.form-group
+			label(for="phone") Phone number
+			input(id="phone", name="phone", class="form-control", placeholder="e.g. 07761451158", type="tel")
+		fieldset.form-group
+			label(for="email") Email address
+				sup *
+			input(id="email", name="email", class="form-control", placeholder="e.g. john.doe@gmail.com", type="email", required)
+		fieldset.form-group
+			label(for="date") Planned Date
+				sup *
+			input(id="date", name="date", class="form-control", type="date", required)
+		fieldset.form-group
+			label(for="child-name") Your child's name
+			input(id="child-name", name="child-name", class="form-control", type="text", placeholder="e.g. Delia Smith")
+		fieldset.form-group
+			label(for="venue-name") Venue name (if known)
+			input(id="venue-name", name="venue-name", class="form-control", type="text", placeholder="e.g. The Air Balloon")
+		fieldset.form-group
+			label(for="venue-postcode") Venue postcode
+			input(id="venue-postcode", name="venue-postcode", class="form-control", type="text")
+		fieldset.form-group
+			label(for="other-details") Anything else we need to know? (e.g. allergies, learning difficulties, etc.)
+			textarea(id="other-details", class="form-control", name="other-details")
+		input(type="submit", name="submit", value="Book my party", class="btn btn-success")
+		input(type="reset", value="Start again", class="btn btn-danger")
+
