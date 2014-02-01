@@ -39,6 +39,10 @@ footer {
 	margin: 0 auto;
 }
 
+.form-horizontal {
+	padding: 15px;
+}
+
 
 @media (min-width: 768px) {
 	footer,

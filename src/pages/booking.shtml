@@ -2,14 +2,42 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
+  	<h1 class="text-center heading">Fun Time Magic Show!</h1>
+    <!--#include virtual="components/navigation.shtml" -->
     <div class="container">
-      <!--#include virtual="components/navigation.shtml" -->
-      <h1>Book</h1>
-      <form action="">
+      <h2>Book your Party now!</h2>
+      <p class="lead">
+      	To book your party please use the form below and we'll get back to you
+      	very shortly. Or if you would like to contact Michael directly you can email him at funtimemagicshow@yahoo.co.uk
+      </p>
+      <form action="" role="form" class="form-horizontal">
+      	<p class="help-block"><sup>*</sup> These are required fields</p>
+      	<div class="form-group">
+	      	<label for="user_given_name">Your first name: <sup>*</sup></label>
+					<input type="text" class="form-control" required id="user_given_name" name="user_given_name">
+      	</div>
+      	<div class="form-group">
+					<label for="user_family_name">Your family name: <sup>*</sup></label>
+					<input type="text" class="form-control" required id="user_family_name" name="user_family_name">
+      	</div>
+      	<div class="form-group">
+					<label for="child_given_name">Your child's first name: <sup>*</sup></label>
+					<input type="text" class="form-control" required id="child_given_name" name="child_given_name">
+      	</div>
+      	<div class="form-group">
+      		<label for="email_address">Your email address: <sup>*</sup></label>
+      		<input type="email" class="form-control" required id="email_address" name="email_address">
+      	</div>
+      	<div class="form-group">
+      		<label for="date">When would you like to have the party?</label>
+      		<input type="date" required>
+      	</div>
+      	<input type="submit" name="submit" value="Book party" class="btn btn-default">
+      	<input type="reset" name="reset" value="Start again" class="btn btn-default">
+
 
 
       </form>
-      <p>To book show, please contact Michael at funtimemagicshow at yahoo dot co dot uk</p>
     </div>
     <!--#include virtual="components/footer.shtml"-->
   </body>
