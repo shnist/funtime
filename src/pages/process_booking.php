@@ -13,7 +13,7 @@
 		$email = $_POST['email-address'];
 		$date = $_POST['date'];
 
-		$toEmail = 'aaron.jack.faber@gmail.com';
+		$toEmail = 'funtimemagicshow@yahoo.co.uk';
 		$emailSubject = 'Funtime party booking';
 		$mailheader = "From: ".$email."\r\n";
 		$mailheader .= "Reply-To: ".$email."\r\n";
