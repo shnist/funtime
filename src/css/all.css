@@ -13,7 +13,13 @@ body {
 
 .container {
 	background: #fff;
+	padding-top: 15px;
 /*	border-radius: 5px 5px 0 0;*/
+}
+
+.navbar {
+	border-radius: 0;
+	margin: 0;
 }
 
 .heading {
@@ -35,19 +41,26 @@ footer {
 
 
 @media (min-width: 768px) {
-	footer {
+	footer,
+	.navbar {
 		width: 750px;
 	}
 }
 
 @media (min-width: 992px) {
-	footer {
+	footer,
+	.navbar {
 		width: 970px;
+	}
+
+	.navbar {
+		margin: 0 auto;
 	}
 }
 
 @media (min-width: 1200px) {
-	footer {
+	footer,
+	.navbar {
 		width: 1170px;
 	}
 }
