@@ -20,21 +20,6 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		clean: {
-			build: {
-				src: 'dist'
-			}
-		},
-		copy: {
-			build: {
-				files: [{
-					expand: true,
-					src: ['src/**'],
-					dest: 'dist/'
-				}],
-				exclude: options.defaultExcludes
-			}
-		},
 		watch: {
 			files: ['src/**/*.js'],
 			tasks: ['default']
@@ -66,15 +51,11 @@ module.exports = function(grunt) {
 	});
 
 	// Load the plugin that provides the "uglify" task.
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-ftp-deploy');
 
 	// Default task(s).
-	grunt.registerTask('default', ['clean', 'copy']);
-	grunt.registerTask('staging', ['clean', 'copy', 'ftp-deploy:staging']);
-	grunt.registerTask('production', ['clean', 'copy', 'ftp-deploy:production']);
+	grunt.registerTask('staging', ['ftp-deploy:staging']);
+	grunt.registerTask('production', ['ftp-deploy:production']);
 
 };
