@@ -10,12 +10,18 @@ body {
 	background: blue;
 	font-size: 16px;
 }
+
 h2{
 	color:red;
 }
 .party-headers{
 	color:blue;
 }
+
+.navbar {
+	margin: 0;
+}
+
 .container {
 	background: #fff;
 	padding-top: 15px;
