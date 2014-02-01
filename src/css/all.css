@@ -10,7 +10,12 @@ body {
 	background: blue;
 	font-size: 16px;
 }
-
+h2{
+	color:red;
+}
+.party-headers{
+	color:blue;
+}
 .container {
 	background: #fff;
 	padding-top: 15px;

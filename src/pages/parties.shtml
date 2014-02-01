@@ -8,7 +8,7 @@
       <h2>Parties</h2>
       <div class="row">
         <div class="col-sm-6 col">
-          <h3>The Fun Time Magic Show</h3>
+          <h3 class="party-headers">The Fun Time Magic Show</h3>
           <p>
             This is a 45 minute magic and puppet show designed to engage and
             entertain children from 3-10 years. Right from the beginning of the
@@ -20,7 +20,7 @@
           <img src="../images/party.jpg" alt="Children enjoying one of Michael's parties" class="img-responsive hidden-print">
         </div>
         <div class="col-sm-6 col">
-           <h3>Superhero Magic Party</h3>
+           <h3 class="party-headers">Superhero Magic Party</h3>
       <p>
         This is also a 45 minute magic show themed around Superheroes. Fun is
         guaranteed as the children help Michael and his superhero friend Magic

@@ -3,22 +3,22 @@
   <!--#include virtual="components/head.shtml" -->
   <body>
     <h1 class="text-center heading">Fun Time Magic Show!</h1>
+    <!--#include virtual="components/navigation.shtml" -->
     <div class="container">
-      <!--#include virtual="components/navigation.shtml" -->
       <h2>Contact Michael</h2>
-      <h2>Fun Time Magic Show</h2>
+      <h3>Fun Time Magic Show</h3>
       <p>Email: <a href="mailto:funtimemagicshow@yahoo.co.uk">funtimemagicshow@yahoo.co.uk</a></p>
       <p>Phone: <a href="tel:07718110798">0771 811 0798</a>.</p>
-      <h2>Jedi Party</h2>
+      <h3>Jedi Party</h3>
       <p>Stuck for a party idea for older boys?? Have a Jedi Party this is out of this Universe!!</p>
       <p>Email: <a href="mailto:helpmeobi1@live.com">helpmeobi1@live.com</a> for further details</p>
-      <h2>Jedi Drama</h2>
+      <h3>Jedi Drama</h3>
       <p>
         This is a weekly class that teaches the core skills of acting through students love
         of Star Wars. This is aimed at ages 6 and upwards. <a href="http://galacticdrama.co.uk/">
         Find out more</a>.
       </p>
-      <h2>Dancing Princess Party</h2>
+      <h3>Dancing Princess Party</h3>
       <p>This is a dance themed party with fun and games adaptable for girls of all ages.</p>
       <p>More info at <a href="http://mandygodding.co.uk/">Mandy Godding Theatre Arts</a>.</p>
     </div>
