@@ -73,6 +73,28 @@ iframe {
 		padding-left: 70px;
 		padding-right: 70px;
 	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		background: transparent;
+		background-position: 10px 3px;
+		background-repeat: no-repeat;
+	}
+
+	.navbar-default .navbar-nav > li > .red-splodge:hover,
+	.navbar-default .navbar-nav > li > .red-splodge:focus {
+		background-image: url(../images/red_splodge.png);
+	}
+
+	.navbar-default .navbar-nav > li > .blue-splodge:hover,
+	.navbar-default .navbar-nav > li > .blue-splodge:focus {
+		background-image: url(../images/blue_splodge.png);
+	}
+
+	.navbar-default .navbar-nav > li > .yellow-splodge:hover,
+	.navbar-default .navbar-nav > li > .yellow-splodge:focus {
+		background-image: url(../images/yellow_splodge.png);
+	}
 }
 
 @media (min-width: 1200px) {
