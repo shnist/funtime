@@ -41,8 +41,12 @@ footer {
 	margin: 0 auto;
 }
 
+iframe {
+	display: none;
+}
+
 .form-horizontal {
-	padding: 15px;
+	padding: 0 15px 15px 15px;
 }
 
 
