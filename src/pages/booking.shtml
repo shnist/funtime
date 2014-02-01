@@ -5,6 +5,10 @@
     <div class="container">
       <!--#include virtual="components/navigation.shtml" -->
       <h1>Book</h1>
+      <form action="">
+
+
+      </form>
       <p>To book show, please contact Michael at funtimemagicshow at yahoo dot co dot uk</p>
     </div>
     <!--#include virtual="components/footer.shtml"-->

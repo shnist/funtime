@@ -9,5 +9,9 @@
 			"path": "/home/aaron/Sites/funtime",
 			"folder_exclude_patterns": ["node_modules", "dist", "bower_components"]
 		}
-	]
+	],
+  "settings":
+  {
+      "tab_size": 2
+  }
 }
