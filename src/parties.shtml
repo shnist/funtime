@@ -2,8 +2,7 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
-    <h1 class="text-center heading">FunTime Magic Show!</h1>
-    <!--#include virtual="components/navigation.shtml" -->
+    <!--#include virtual="components/header.shtml" -->
     <div class="container">
       <h2>Parties</h2>
       <div class="row">

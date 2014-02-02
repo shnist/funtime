@@ -2,13 +2,8 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
-    <h1 class="text-center heading">Fun Time Magic Show!</h1>
-    <!--#include virtual="components/navigation.shtml" -->
+    <!--#include virtual="components/header.shtml" -->
     <div class="container">
-      <div class="contact-information">
-        <a href="mailto:funtimemagicshow@yahoo.co.uk">funtimemagicshow@yahoo.co.uk</a>
-        <a href="tel:07718110798">0771 811 0798</a>
-      </div>
       <h2 class="welcome-title">Welcome to Funtime Magic!</h2>
       <p>
         If you are looking to hire a childrens' entertainer around the Gloucestershire

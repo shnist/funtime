@@ -3,6 +3,10 @@
   <?php include 'components/head.shtml' ?>
   <body>
     <h1 class="text-center heading">Fun Time Magic Show!</h1>
+    <div class="contact-information">
+      <a href="mailto:funtimemagicshow@yahoo.co.uk">funtimemagicshow@yahoo.co.uk</a>
+      <a href="tel:07718110798">0771 811 0798</a>
+    </div>
     <?php include 'components/navigation.shtml' ?>
     <div class="container">
       <h2>Book your Party now!</h2>
