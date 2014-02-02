@@ -25,26 +25,26 @@
 		$email = $_POST['email-address'];
 		$date = $_POST['date'];
 
-		//$toEmail = 'funtimemagicshow@yahoo.co.uk';
-		$toEmail = 'aaron.jack.faber@gmail.com';
+		$toEmail = 'funtimemagicshow@yahoo.co.uk';
+		//$toEmail = 'aaron.jack.faber@gmail.com';
 		$emailSubject = 'Funtime party booking';
 		$mailheader = "From: ".$email."\r\n";
 		$mailheader .= "Reply-To: ".$email."\r\n";
 		$mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
 		// creating the email message
-		$body = "Parent's Name: ".$givenName." ".$familyName."\r\n";
-		$body .= "would like to book a part for ".$childGivenName."\r\n";
+		$body = $givenName." ".$familyName."\r\n";
+		$body .= "would like to book a party for ".$childGivenName."\r\n";
 		$body .= "on the ".$date." . Their email address is: ".$email."\r\n";
 
 		if (mail($toEmail, $emailSubject, $body, $mailheader)) {
 			// been successful, redirect to success page
-			redirect('http://funtime.local/thanks', true);
+			redirect('http://www.funtimemagic.co.uk/thanks', true);
 		} else {
 			echo "Goodbye";
-			redirect('http://funtime.local/oops', true);
+			redirect('http://www.funtimemagic.co.uk/oops', true);
 			// something went wrong
 		}
 	} else {
-		redirect('http://funtime.local/oops', true);
+		redirect('http://www.funtimemagic.co.uk/oops', true);
 	}
 ?>
