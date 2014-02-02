@@ -5,9 +5,8 @@
   <div class="collapse navbar-collapse navbar-main-collapse">
     <ul class="nav navbar-nav">
       <li><a href="index.shtml" class="red-splodge">Home</a></li>
-      <li><a href="parties.shtml" class="blue-splodge">Parties</a></li>
-      <li><a href="booking.php" class="yellow-splodge">Book a Party</a></li>
-      <li><a href="contact.shtml" class="red-splodge">Contact Us</a></li>
+      <li><a href="parties.shtml" class="yellow-splodge">Parties</a></li>
+      <li><a href="booking.php" class="red-splodge">Book a Party</a></li>
     </ul>
   </div>
 </nav>

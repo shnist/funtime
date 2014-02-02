@@ -60,11 +60,42 @@ iframe {
 	padding: 0 15px 15px 15px;
 }
 
+.contact-information {
+	padding: 0 0 15px 0;
+	text-align: center;
+	border-bottom: 3px solid red;
+}
+
+.contact-information a {
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	display: block;
+}
 
 @media (min-width: 768px) {
 	footer,
 	.navbar {
 		width: 750px;
+	}
+
+	.welcome-title {
+		margin: 15px 0 20px 0;
+	}
+
+	.contact-information {
+		position: absolute;
+		right: 5%;
+		top: 65px;
+		border: 0;
+	}
+
+	.contact-information p {
+		margin: 0;
+	}
+
+	.contact-information a {
+		color: white;
+		font-size: 14px;
 	}
 
 	.navbar {
@@ -116,6 +147,17 @@ iframe {
 		padding-right: 70px;
 	}
 
+	.contact-information {
+		position: absolute;
+		/*right: 40px;*/
+		right: 5%;
+		top: 65px;
+	}
+
+	.contact-information a {
+		color: white;
+		font-size: 20px;
+	}
 
 }
 
