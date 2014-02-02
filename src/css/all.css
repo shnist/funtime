@@ -24,8 +24,7 @@ h2{
 
 .container {
 	background: #fff;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding: 15px 25px;
 /*	border-radius: 5px 5px 0 0;*/
 }
 
@@ -42,10 +41,15 @@ h2{
 }
 
 footer {
+	border-top: 3px red solid;
 	background: red;
 	color: white;
-	padding: 20px;
+	padding: 20px 20px 10px 20px;
 	margin: 0 auto;
+}
+
+footer p {
+	font-size: 12px;
 }
 
 iframe {

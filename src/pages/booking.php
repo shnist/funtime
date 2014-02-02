@@ -10,8 +10,8 @@
         To book your party please use the form below and we'll get back to you
         very shortly. Or if you would like to contact Michael directly you can email him at <a href="mailto:funtimemagicshow@yahoo.co.uk">funtimemagicshow@yahoo.co.uk</a>
       </p>
+      <p class="help-block">Fields with the <sup>*</sup> must be filled out.</p>
       <form action="/pages/process_booking.php" role="form" class="form-horizontal" method="POST">
-        <p class="help-block">Fields with the <sup>*</sup> must be filled out.</p>
         <div class="form-group">
           <label for="user-given-name">Your first name: <sup>*</sup></label>
           <input type="text" class="form-control" required id="user-given-name" name="user-given-name">
@@ -41,8 +41,8 @@
             echo recaptcha_get_html($publickey);
           ?>
         </div>
-        <input type="submit" name="submit" value="Book party" class="btn btn-default btn-primary">
-        <input type="reset" name="reset" value="Start again" class="btn btn-default btn-danger">
+        <input type="submit" name="submit" value="Book party" class="btn btn-default btn-primary btn-lg">
+        <input type="reset" name="reset" value="Start again" class="btn btn-default btn-danger btn-lg">
       </form>
     </div>
     <?php include 'components/footer.shtml' ?>
