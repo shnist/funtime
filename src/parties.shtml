@@ -39,7 +39,7 @@
       </ul>
       <p>45 minute party packages only cost &pound;100!</p>
 
-        <a href="/pages/booking.php" class="btn btn-primary btn-lg">
+        <a href="booking.php" class="btn btn-primary btn-lg">
       Book Now!</a>
     </div>
     <!--#include virtual="components/footer.shtml"-->

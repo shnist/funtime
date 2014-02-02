@@ -29,7 +29,7 @@
           <input type="email" class="form-control" required id="email-address" name="email-address">
         </div>
         <div class="form-group">
-          <label for="date">When would you like to have the party?</label>
+          <label for="date">When would you like to have the party? <sup>*</sup></label>
           <input type="date" required name="date" id="date">
         </div>
         <div class="form-group">
