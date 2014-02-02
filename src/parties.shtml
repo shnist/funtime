@@ -2,7 +2,7 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
-    <h1 class="text-center heading">Fun Time Magic Show!</h1>
+    <h1 class="text-center heading">FunTime Magic Show!</h1>
     <!--#include virtual="components/navigation.shtml" -->
     <div class="container">
       <h2>Parties</h2>
@@ -21,15 +21,15 @@
         </div>
         <div class="col-sm-6 col">
            <h3 class="party-headers">Superhero Magic Party</h3>
-      <p>
-        This is also a 45 minute magic show themed around Superheroes. Fun is
-        guaranteed as the children help Michael and his superhero friend Magic
-        Marvel defeat the evil Dr Doom! This party is aimed for children aged
-        5 - 10.
-      </p>
-        <img src="../images/superhero.jpg" alt="Magic Marvel" class="img-responsive hidden-print">
-          </div>
+            <p>
+              A 45 minute magic show themed around Superheroes. Fun is
+              guaranteed as the children help Michael and his superhero friend Magic
+              Marvel defeat the evil Dr Doom! This party is aimed for children aged
+              5 - 10.
+            </p>
+            <img src="../images/superhero.jpg" alt="Magic Marvel" class="img-responsive hidden-print">
         </div>
+      </div>
             <h2>Details</h2>
         <ul>
         <li>All birthday party packages will be adapted according to age and gender</li>
