@@ -36,9 +36,9 @@
           <p class="help-block">Please fill in the words below. This is to prevent spam and make
             sure you are human!</p>
           <?php
-            require_once('../assets/recaptchalib.php');
-            $publickey = "6Lez7u0SAAAAAL0HqqRIVRUJTqHg4pRBgadOZhx4";
-            echo recaptcha_get_html($publickey);
+            //require_once('../assets/recaptchalib.php');
+            //$publickey = "6Lez7u0SAAAAAL0HqqRIVRUJTqHg4pRBgadOZhx4";
+            //echo recaptcha_get_html($publickey);
           ?>
         </div>
         <input type="submit" name="submit" value="Book party" class="btn btn-default btn-primary btn-lg">

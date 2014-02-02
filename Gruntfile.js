@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 				src:'src',
 				// .ftppass with details is needed (not included in repo)
 				dest: '/htdocs/funtime/staging',
-				exclusions: ['src/.DS_Store', 'src/Thumbs.db', 'src/tmp', 'src/.git']
+				exclusions: ['*/.DS_Store', '*/Thumbs.db', '*/tmp', '*/.git']
 			},
 			production: {
 				auth: {
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 				src:'src',
 				// .ftppass with details is needed (not included in repo)
 				dest: '/htdocs/funtime/production',
-				exclusions: ['src/.DS_Store', 'src/Thumbs.db', 'src/tmp', 'src/.git']
+				exclusions: ['*/.DS_Store', '*/Thumbs.db', '*/tmp', '*/.git']
 			}
 		}
 	});

@@ -66,13 +66,6 @@ iframe {
 	.navbar {
 		width: 750px;
 	}
-}
-
-@media (min-width: 992px) {
-	footer,
-	.navbar {
-		width: 970px;
-	}
 
 	.navbar {
 		margin: 0 auto;
@@ -80,20 +73,9 @@ iframe {
 		border-radius: 0;
 	}
 
-	.navbar a {
-		font-size: 20px;
-	}
-
 	.nav > li > a {
-		padding-left: 70px;
-		padding-right: 70px;
-	}
-
-	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus {
-		background: transparent;
-		background-position: 10px 3px;
-		background-repeat: no-repeat;
+		padding-left: 55px;
+		padding-right: 55px;
 	}
 
 	.navbar-default .navbar-nav > li > .red-splodge:hover,
@@ -110,6 +92,31 @@ iframe {
 	.navbar-default .navbar-nav > li > .yellow-splodge:focus {
 		background-image: url(../images/yellow_splodge.png);
 	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		background: transparent;
+		background-position: 5px 3px;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 992px) {
+	footer,
+	.navbar {
+		width: 970px;
+	}
+
+	.navbar a {
+		font-size: 20px;
+	}
+
+	.nav > li > a {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+
 }
 
 @media (min-width: 1200px) {

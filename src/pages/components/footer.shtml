@@ -5,5 +5,5 @@
 	</p>
 </footer>
 <!-- scripts -->
-<script src="../../../assets/jquery.1.10.2.min" media="screen"></script>
-<script src="../../../assets/bootstrap.min" media="screen"></script>
+<script src="../assets/jquery.1.10.2.min.js" media="screen"></script>
+<script src="../assets/bootstrap.min.js" media="screen"></script>
