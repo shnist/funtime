@@ -11,7 +11,7 @@
         very shortly. Or if you would like to contact Michael directly you can email him at <a href="mailto:funtimemagicshow@yahoo.co.uk">funtimemagicshow@yahoo.co.uk</a>
       </p>
       <p class="help-block">Fields with the <sup>*</sup> must be filled out.</p>
-      <form action="/pages/process_booking.php" role="form" class="form-horizontal" method="POST">
+      <form action="process_booking.php" role="form" class="form-horizontal" method="POST">
         <div class="form-group">
           <label for="user-given-name">Your first name: <sup>*</sup></label>
           <input type="text" class="form-control" required id="user-given-name" name="user-given-name">
