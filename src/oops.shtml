@@ -9,7 +9,7 @@
       <p class="lead">
       	Unfortunately something went wrong when trying to process
         your booking request. Make sure your email details are correct
-        before submitting. <a href="/pages/booking.shtml">Please try again.</a>
+        before submitting. <a href="booking.php">Please try again.</a>
       </p>
     </div>
     <!--#include virtual="components/footer.shtml"-->

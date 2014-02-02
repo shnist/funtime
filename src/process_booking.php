@@ -38,13 +38,13 @@
 
 		if (mail($toEmail, $emailSubject, $body, $mailheader)) {
 			// been successful, redirect to success page
-			redirect('http://funtime.local/pages/thanks', true);
+			redirect('http://funtime.local/thanks', true);
 		} else {
 			echo "Goodbye";
-			redirect('http://funtime.local/pages/oops', true);
+			redirect('http://funtime.local/oops', true);
 			// something went wrong
 		}
 	} else {
-		redirect('http://funtime.local/pages/oops', true);
+		redirect('http://funtime.local/oops', true);
 	}
 ?>
