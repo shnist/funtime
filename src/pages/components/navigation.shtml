@@ -4,10 +4,10 @@
   </div>
   <div class="collapse navbar-collapse navbar-main-collapse">
     <ul class="nav navbar-nav">
-      <li><a href="index" class="red-splodge">Home</a></li>
-      <li><a href="parties" class="blue-splodge">Parties</a></li>
-      <li><a href="booking" class="yellow-splodge">Book a Party</a></li>
-      <li><a href="contact" class="red-splodge">Contact Us</a></li>
+      <li><a href="index.shtml" class="red-splodge">Home</a></li>
+      <li><a href="parties.shtml" class="blue-splodge">Parties</a></li>
+      <li><a href="booking.php" class="yellow-splodge">Book a Party</a></li>
+      <li><a href="contact.shtml" class="red-splodge">Contact Us</a></li>
     </ul>
   </div>
 </nav>

@@ -31,10 +31,10 @@ module.exports = function(grunt) {
 					port: 21,
 					authKey: 'funTimeKey'
 				},
-				src:'dist',
+				src:'src',
 				// .ftppass with details is needed (not included in repo)
 				dest: '/htdocs/funtime/staging',
-				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
+				exclusions: ['src/.DS_Store', 'src/Thumbs.db', 'src/tmp', 'src/.git']
 			},
 			production: {
 				auth: {
@@ -42,10 +42,10 @@ module.exports = function(grunt) {
 					port: 21,
 					authKey: 'funTimeKey'
 				},
-				src:'dist',
+				src:'src',
 				// .ftppass with details is needed (not included in repo)
 				dest: '/htdocs/funtime/production',
-				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
+				exclusions: ['src/.DS_Store', 'src/Thumbs.db', 'src/tmp', 'src/.git']
 			}
 		}
 	});
