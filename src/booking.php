@@ -33,8 +33,8 @@
           <input type="date" required name="date" id="date">
         </div>
         <div class="form-group">
-          <p class="help-block">Please fill in the words below. This is to prevent spam and make
-            sure you are human!</p>
+          <!-- <p class="help-block">Please fill in the words below. This is to prevent spam and make
+            sure you are human!</p> -->
           <?php
             //require_once('../assets/recaptchalib.php');
             //$publickey = "6Lez7u0SAAAAAL0HqqRIVRUJTqHg4pRBgadOZhx4";
