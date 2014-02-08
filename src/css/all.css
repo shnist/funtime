@@ -7,7 +7,7 @@
 }
 
 body {
-	background: blue;
+	background: #0000fe;
 	font-size: 16px;
 }
 
@@ -27,19 +27,19 @@ header {
 }
 
 .heading {
-	background: url('../images/logo.png') no-repeat;
+	background: url('../images/logo.gif') no-repeat;
 	margin: 20px 0 30px 20px;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
 	direction: ltr;
-	width: 288px;
-	height: 186px;
-	-moz-transform: rotate(-15deg);
-	-webkit-transform: rotate(-15deg);
-	-o-transform: rotate(-15deg);
-	-ms-transform: rotate(-15deg);
-	transform: rotate(-15deg);
+	width: 310px;
+	height: 202px;
+	-moz-transform: rotate(-11deg);
+	-webkit-transform: rotate(-11deg);
+	-o-transform: rotate(-11deg);
+	-ms-transform: rotate(-11deg);
+	transform: rotate(-11deg);
 	position: relative;
 	z-index: 10;
 }
