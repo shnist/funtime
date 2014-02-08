@@ -46,11 +46,9 @@ footer {
 	color: white;
 	padding: 20px 20px 10px 20px;
 	margin: 0 auto;
+	text-align: center;
 }
 
-footer p {
-	font-size: 12px;
-}
 
 iframe {
 	display: none;
@@ -105,7 +103,10 @@ iframe {
 	.navbar {
 		margin: 0 auto;
 		border: 0;
-		border-radius: 0;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
 	}
 
 	.nav > li > a {
