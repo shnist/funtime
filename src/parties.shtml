@@ -29,25 +29,34 @@
             <img src="../images/superhero.jpg" alt="Magic Marvel" class="img-responsive hidden-print">
         </div>
       </div>
-      <h2>Details</h2>
-      <ul>
-        <li>All birthday party packages will be adapted according to age and gender</li>
-        <li>A special balloon hat creation and wand or likewise are provided for the birthday boy/girl.</li>
-        <li>Pre-School and School shows are also available, as well as XMas Themed Shows.</li>
-        <li>Michael is fully CRB checked.</li>
-      </ul>
-      <p>45 minute party packages only cost &pound;100!</p>
-      <a href="booking.php" class="btn btn-primary btn-lg">
-      Book Now!</a>
-
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-2">
+          <h3 class="party-headers">Details</h3>
+          <ul>
+            <li>All birthday party packages will be adapted according to age and gender</li>
+            <li>A special balloon hat creation and wand or likewise are provided for the birthday boy/girl.</li>
+            <li>Pre-School and School shows are also available, as well as XMas Themed Shows.</li>
+            <li>Michael is fully CRB checked.</li>
+          </ul>
+          <p>45 minute party packages only cost &pound;100!</p>
+          <a href="booking.php" class="btn btn-primary btn-lg">Book Now!</a>
+        </div>
+      </div>
+      <hr>
       <h2>Other Parties</h2>
-      <h3 class="party-headers">Jedi Party</h3>
-      <p>Stuck for a party idea for older boys?? <a href="http://galacticdrama.co.uk/">Have a Jedi Party that is out of this Universe!!</a></p>
-      <p>Email: <a href="mailto:helpmeobi1@live.com">helpmeobi1@live.com</a> for further details</p>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="party-headers">Jedi Party</h3>
+          <p>Stuck for a party idea for older boys?? <a href="http://galacticdrama.co.uk/">Have a Jedi Party that is out of this Universe!!</a></p>
+          <p>Email: <a href="mailto:helpmeobi1@live.com">helpmeobi1@live.com</a> for further details</p>
+        </div>
+        <div class="col-sm-6">
+          <h3 class="party-headers">Dancing Princess Party</h3>
+          <p>This is a dance themed party with fun and games adaptable for girls of all ages.</p>
+          <p>More info at <a href="http://www.mandygodding.co.uk/contact/">Mandy Godding Theatre Arts</a>.</p>
+        </div>
+      </div>
 
-      <h3 class="party-headers">Dancing Princess Party</h3>
-      <p>This is a dance themed party with fun and games adaptable for girls of all ages.</p>
-      <p>More info at <a href="http://www.mandygodding.co.uk/contact/">Mandy Godding Theatre Arts</a>.</p>
     </div>
     <!--#include virtual="components/footer.shtml"-->
   </body>

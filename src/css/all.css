@@ -72,6 +72,10 @@ iframe {
 	display: block;
 }
 
+.img-responsive {
+	max-height: 300px;
+}
+
 @media (min-width: 768px) {
 	footer,
 	.navbar {
