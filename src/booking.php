@@ -50,5 +50,6 @@
       </form>
     </div>
     <?php include 'components/footer.shtml' ?>
+    <?php include 'components/analytics.shtml' ?>
   </body>
 </html>

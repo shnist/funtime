@@ -59,5 +59,6 @@
 
     </div>
     <!--#include virtual="components/footer.shtml"-->
+    <!--#include virtual="components/analytics.shtml"-->
   </body>
 </html>
