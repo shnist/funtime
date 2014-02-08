@@ -87,7 +87,7 @@ var html5Forms = new function () {
 							} else {
 								if (!Modernizr.input.required || hasBadValidationImplementation || me.forceJSValidation) {
 										toLoad = toLoad.concat([
-											scriptDir + '/webforms2/webforms2_src.js']);
+											scriptDir + 'webforms2/webforms2_src.js']);
 										console.log(toLoad)
 									if (supportReq == 'autofocus') {
 										loadHTML5Widgets = true;
@@ -129,10 +129,10 @@ var html5Forms = new function () {
 
 							if (!inputSupport.date || me.forceJSDatePicker) {
 								toLoad = toLoad.concat([
-										  scriptDir + '/jscalendar-1.0/calendar-win2k-1.css',
-										  scriptDir + '/jscalendar-1.0/calendar.js',
-										  scriptDir + '/jscalendar-1.0/lang/calendar-' + lang + '.js',
-										  scriptDir + '/jscalendar-1.0/calendar-setup.js']);
+										  scriptDir + 'jscalendar-1.0/calendar-win2k-1.css',
+										  scriptDir + 'jscalendar-1.0/calendar.js',
+										  scriptDir + 'jscalendar-1.0/lang/calendar-' + lang + '.js',
+										  scriptDir + 'jscalendar-1.0/calendar-setup.js']);
 								loadHTML5Widgets = true;
 							}
 							break;
