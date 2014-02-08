@@ -51,6 +51,7 @@ var html5Forms = new function () {
 		}
 
 		if (scriptNode) {
+			console.log(window.yepnode)
 			if (window.yepnope) {
 				var inputSupport = Modernizr.inputtypes;
 				/* let's load the supporting scripts according to what is in data-webforms2-support */
@@ -58,6 +59,8 @@ var html5Forms = new function () {
 				me.forceJSValidation = (scriptNode.getAttribute('data-webforms2-force-js-validation') == 'true');
 				me.turnOffValidation = (scriptNode.getAttribute('data-webforms2-turn-off-validation') == 'true');
 				me.forceJSDatePicker = (scriptNode.getAttribute('data-webforms2-force-js-date-picker') == 'true');
+
+				console.log(supportArray)
 				if (!supportArray) {
 					return;
 				} else if (trim(supportArray) == 'all') {
@@ -73,6 +76,7 @@ var html5Forms = new function () {
 				for (var i=0; i<supportArray.length; i++) {
 					var supportReq = trim(supportArray[i]);
 
+					console.log('support request', supportReq)
 					switch(supportReq) {
 
 						case "validation":
@@ -81,17 +85,10 @@ var html5Forms = new function () {
 								//me.turnOffNativeValidation();
 								EventHelpers.addPageLoadEvent('html5Forms.turnOffNativeValidation')
 							} else {
-
 								if (!Modernizr.input.required || hasBadValidationImplementation || me.forceJSValidation) {
-
-									if (isScriptCompressed) {
 										toLoad = toLoad.concat([
-											scriptDir + '../../shared/js/weston.ruter.net/webforms2/webforms2-p.js']);
-									} else {
-										toLoad = toLoad.concat([
-											scriptDir + '../../shared/js/weston.ruter.net/webforms2/webforms2_src.js']);
-									}
-
+											scriptDir + '/webforms2/webforms2_src.js']);
+										console.log(toLoad)
 									if (supportReq == 'autofocus') {
 										loadHTML5Widgets = true;
 									}
@@ -132,10 +129,10 @@ var html5Forms = new function () {
 
 							if (!inputSupport.date || me.forceJSDatePicker) {
 								toLoad = toLoad.concat([
-										  scriptDir + '../../shared/js/jscalendar-1.0/calendar-win2k-1.css',
-										  scriptDir + '../../shared/js/jscalendar-1.0/calendar.js',
-										  scriptDir + '../../shared/js/jscalendar-1.0/lang/calendar-' + lang + '.js',
-										  scriptDir + '../../shared/js/jscalendar-1.0/calendar-setup.js']);
+										  scriptDir + '/jscalendar-1.0/calendar-win2k-1.css',
+										  scriptDir + '/jscalendar-1.0/calendar.js',
+										  scriptDir + '/jscalendar-1.0/lang/calendar-' + lang + '.js',
+										  scriptDir + '/jscalendar-1.0/calendar-setup.js']);
 								loadHTML5Widgets = true;
 							}
 							break;
@@ -195,7 +192,7 @@ var html5Forms = new function () {
 
 			yepnope({
 				test: loadHTML5Widgets,
-				yep: scriptDir + '../../shared/js/html5Widgets.js',
+				yep: scriptDir + 'html5Widgets.js',
 				complete: function () {
 					if (loadHTML5Widgets) {
 						for (var i=0; i<toRunAfterLoad.length; i++)  {
@@ -229,11 +226,12 @@ var html5Forms = new function () {
 					setErrorMessageEvents(node);
 					setCustomClassesEvents(node);
 					setNodeClasses(node, true);
+					console.log(node)
+					if (i==0 && node.type=="submit") {
+						EventHelpers.addEvent(node, 'click', submitClickEvent);
+					}
 				}
 
-				if (i==0 && node.type=="submit") {
-					EventHelpers.addEvent(node, 'click', submitClickEvent);
-				}
 			}
 
 			var forms = document.getElementsByTagName('form');
@@ -425,7 +423,7 @@ var html5Forms = new function () {
 	var getScriptDir = function () {
 		var arr = scriptNode.src.split('/');
 		arr.pop();
-
+		console.log(arr.join('/') + '/');
 		return arr.join('/') + '/';
 	}
 

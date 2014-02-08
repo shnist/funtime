@@ -4,7 +4,7 @@
 	</p>
 </footer>
 <!-- scripts -->
-<script src="../assets/modernizr.custom.js" media="screen"></script>
+<script src="../assets/modernizr.js" media="screen"></script>
 <script src="../assets/jquery.1.10.2.min.js" media="screen"></script>
 <script src="../assets/bootstrap.min.js" media="screen"></script>
-<script data-webforms2-support="validation,placeholder,date" data-lang="en" src="../assets/html5Forms.js" >
+<script data-webforms2-support="validation,placeholder,date" data-lang="en" src="../assets/html5Forms_src.js" >
