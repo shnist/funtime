@@ -2,14 +2,16 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
-    <!--#include virtual="components/header.shtml" -->
     <div class="container">
-      <h2>Something went wrong!</h2>
-      <p class="lead">
-      	Unfortunately something went wrong when trying to process
-        your booking request. Make sure your email address is correct
-        before submitting. <a href="booking.php">Please try again.</a>
-      </p>
+      <!--#include virtual="components/header.shtml" -->
+      <section class="content">
+        <h2>Something went wrong!</h2>
+        <p class="lead">
+        	Unfortunately something went wrong when trying to process
+          your booking request. Make sure your email address is correct
+          before submitting. <a href="booking.php">Please try again.</a>
+        </p>
+      </section>
     </div>
     <!--#include virtual="components/footer.shtml"-->
     <!--#include virtual="components/analytics.shtml"-->

@@ -2,13 +2,15 @@
 <html lang="en">
   <!--#include virtual="components/head.shtml" -->
   <body>
-    <!--#include virtual="components/header.shtml" -->
     <div class="container">
-      <h2>Thank you!</h2>
-      <p class="lead">
-      	Your booking request has successfully been submitted. We'll get back
-        to you very soon. <a href="index.shtml">Go back to the home page.</a>
-      </p>
+      <!--#include virtual="components/header.shtml" -->
+      <section class="content">
+        <h2>Thank you!</h2>
+        <p class="lead">
+        	Your booking request has successfully been submitted. We'll get back
+          to you very soon. <a href="index.shtml">Go back to the home page.</a>
+        </p>
+      </section>
     </div>
     <!--#include virtual="components/footer.shtml"-->
     <!--#include virtual="components/analytics.shtml"-->
