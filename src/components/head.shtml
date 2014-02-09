@@ -5,6 +5,6 @@
 	<link href="../css/all.css" rel="stylesheet" media="screen">
 	<!--[if lt IE 9]>
 	    <script src="../assets/html5shiv.js"></script>
+			<script src="../assets/respond.js"></script>
 	<![endif]-->
-	<script src="../assets/respond.js"></script>
 </head>
